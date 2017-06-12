@@ -1,19 +1,26 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import NavBar from './component-library/components/NavBar';
 
 class App extends Component {
   render() {
+    const navOptions = [
+      {
+          id: "one",
+          text: "one text"
+      },
+      {
+          id: "two",
+          text: "two text"
+      }
+    ];
+
     return (
       <div className="App">
           <header>
               <h1>A&C Consulting</h1>
           </header>
-          <nav>
-              <a href="#section1">Section 1</a> |
-              <a href="#section2">Section 2</a> |
-              <a href="#section3">Section 3</a>
-          </nav>
+          <NavBar options={navOptions} />
 
           <section id="section1">
               <p>
