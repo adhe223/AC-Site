@@ -7,7 +7,7 @@ class App extends Component {
     return (
       <div className="App">
           <header>
-              <h1>C&A Consulting</h1>
+              <h1>A&C Consulting</h1>
           </header>
           <nav>
               <a href="#section1">Section 1</a> |
@@ -42,9 +42,9 @@ class App extends Component {
 
           <footer>
               Contact information:&nbsp;
-              <a href="mailto:cindy.xn.han@gmail.com">cindy.xn.han@gmail.com</a>
-              &nbsp;and&nbsp;
               <a href="mailto:alex.david.henry@gmail.com">alex.david.henry@gmail.com</a>
+              &nbsp;and&nbsp;
+              <a href="mailto:cindy.xn.han@gmail.com">cindy.xn.han@gmail.com</a>
           </footer>
       </div>
     );
