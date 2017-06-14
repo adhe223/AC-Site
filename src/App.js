@@ -4,16 +4,21 @@ import NavBar from './component-library/components/NavBar';
 import PhotoStream from './component-library/components/PhotoStream';
 
 class App extends Component {
-  render() {
+    render() {
     const navOptions = [
-      {
-          id: "one",
-          text: "one text"
-      },
-      {
-          id: "two",
-          text: "two text"
-      }
+        {
+            id: "one",
+            text: "one text"
+        },
+        {
+            id: "two",
+            text: "two text"
+        },
+        {
+            id: "three",
+            text: "three text",
+            float: "right"
+        }
     ];
 
     const photos = [
@@ -38,7 +43,7 @@ class App extends Component {
           </header>
           <NavBar options={navOptions} />
 
-          <PhotoStream photos={photos} height="250px" />
+          <PhotoStream photos={photos} height="300px" width="700px" />
           <section id="section1">
               <p>
                   Bacon ipsum dolor amet prosciutto spare ribs ground round, alcatra swine picanha fatback shankle pork flank beef ribs cupim. Shank corned beef shankle landjaeger flank pork chop brisket bacon alcatra short loin prosciutto salami ribeye pork loin fatback. Hamburger pork tongue pork loin. Tail andouille strip steak ham picanha burgdoggen. Sirloin pork chop hamburger, jowl pork belly burgdoggen beef ribs cow bacon ball tip capicola. Swine pork turducken ribeye tenderloin. Turducken ham cow fatback.
